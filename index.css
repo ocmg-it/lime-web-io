@@ -1,0 +1,204 @@
+@media screen and (min-width: 1300px) {
+    .container {
+        max-width: 1328px;
+    }
+}
+
+@font-face {
+    src: url('fonts/Roboto-Regular.ttf');
+    font-family: 'Regular';
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url('fonts/Roboto-Light.ttf');
+    font-family: 'Light';
+    font-style: normal;
+    font-weight: lighter;
+}
+
+
+@font-face {
+    src: url('fonts/Roboto-Bold.ttf');
+    font-family: 'Bold';
+    font-style: normal;
+    font-weight: Bold;
+}
+
+@font-face {
+    src: url('fonts/Roboto-Medium.ttf');
+    font-family: 'Semibold';
+}
+body {
+    font-family: 'Regular';
+    color: black;
+    font-size: 16px;
+    max-width: 1920px;
+    margin: auto;
+    position: relative;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.po-r {
+    position: relative;
+}
+
+.po-a {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.j-sb {
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ai-fe {
+    align-items: flex-end;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 68px;
+    height: 68px;
+    background: rgba(217, 217, 217, 0.85) !important;
+}
+
+.owl-nav button.owl-prev {
+    right: 0;
+    left: unset;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.title-banner {
+    font-weight: Bold;
+    font-size: 41px;
+    line-height: 50px;
+}
+
+.pd-130-0 {
+    padding: 130px 0;
+}
+
+.sixth-section .pdz {
+    padding: 130px 0 95px;
+}
+
+.seventh-section {
+    padding-bottom: 65px;
+}
+
+.mgt-50 {
+    margin-top: 50px;
+}
+ 
+.second-section .left {
+    width: 65%;
+    text-align: center;
+}
+
+.second-section .right {
+    width: 35%;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.second-section .left .text {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    margin-top: 84px;
+}
+
+.third-section .part {
+    width: 70%;
+}
+
+.third-section .part img.ic {
+    margin: auto;
+    display: inherit;
+    margin-top: 17px;
+}
+
+.text-banner .text {
+    margin-top: 20px;
+}
+
+.text-bdl {
+    font-size: 35px;
+    border-left: 4px solid black;
+    padding-left: 10px;
+}
+.lg-chco{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.sixth-section .title{
+    font-weight: Bold;
+    font-style: 20;
+    margin-bottom: 10px;
+}
+.slider{
+    margin-top: 60px;
+}
+.seventh-section .text{
+    margin-top: 20px;
+}
+.ft{
+    border-top: 1px solid #D9D9D9;
+    padding: 60px 0 30px; 
+
+}
+.ft .left img{
+    margin-bottom: 10px;
+}
+.grey-txt{
+    margin-bottom: 5px;
+    color: #5B5B5B;
+    font-family: Light;
+    font-size: 12px;
+}
+.grey-txt:last-child{
+    margin-bottom: 0;
+}
+.ft-it{
+    margin-left: 50px;
+}
+
+.fscs{
+    color: #5B5B5B;
+    text-align: right;
+    margin-bottom: 25px;
+}
+.main-logo{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index: 99;
+}
